@@ -1,13 +1,19 @@
-/*  basic styling */
+/*  styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: purple;
+    background-color: lightgreen;
     margin: 0;
+  }
+  .card-body {
+    background-color: lightyellow;
   }
   
   h1 {
     text-align: center;
     margin-top: 20px;
+    color: darkgreen;
+    font-weight: 600;
+    text-transform: uppercase;
   }
   
   .container {
@@ -16,6 +22,11 @@ body {
     padding: 20px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card {
+    margin-bottom: 10px;
+  
   }
   
   .task-form {
@@ -27,6 +38,7 @@ body {
   .task-form label {
     margin-bottom: 10px;
     font-weight: bold;
+    
   }
   
   .task-form input[type="text"],
@@ -40,7 +52,7 @@ body {
   
   .task-form input[type="submit"] {
     background-color: #4caf50;
-    color: white;
+    color: yellowgreen;
     border: none;
     border-radius: 4px;
     padding: 10px 20px;
@@ -56,7 +68,11 @@ body {
     border-collapse: collapse;
     width: 100%;
   }
-  
-  
-  th
+
+ .modal-body {
+  background-color: aqua;
+ }
+ 
+   
+
   
